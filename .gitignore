@@ -13,3 +13,6 @@ wheels/
 *.docx
 git_practice/
 My first notebook.ipynb
+
+# Local secrets (API keys)
+.streamlit/secrets.toml
