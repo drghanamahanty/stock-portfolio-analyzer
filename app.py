@@ -4,6 +4,7 @@ Run with:  uv run streamlit run app.py
 """
 
 import os
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -11,7 +12,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from w1_project import alerts as al
+# Make src/ importable on hosts that install only requirements.txt (e.g. Streamlit Community Cloud).
+sys.path.insert(0, str(Path(__file__).parent / "src"))
+
+from w1_project import alerts as al  # noqa: E402
 from w1_project import analytics as an
 from w1_project import assistant as bot
 from w1_project import forecast as fc

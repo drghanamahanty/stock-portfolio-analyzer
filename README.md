@@ -35,7 +35,7 @@ uv sync
 uv run streamlit run app.py
 ```
 
-Without uv: `pip install -r Requirements.txt && pip install -e . && streamlit run app.py`.
+Without uv: `pip install -r requirements.txt && streamlit run app.py`.
 
 ## Data
 
