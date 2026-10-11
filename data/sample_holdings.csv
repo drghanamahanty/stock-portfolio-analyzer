@@ -1,0 +1,11 @@
+ticker,company,sector,shares,avg_cost,purchase_date
+AAPL,Apple Inc.,Technology,60,224.08,2024-10-01
+MSFT,Microsoft Corp.,Technology,25,421.41,2024-10-01
+NVDA,NVIDIA Corp.,Technology,90,124.37,2024-11-15
+GOOGL,Alphabet Inc.,Communication Services,50,189.31,2025-01-10
+AMZN,Amazon.com Inc.,Consumer Discretionary,45,183.73,2024-10-01
+JPM,JPMorgan Chase & Co.,Financials,40,188.9,2025-03-03
+V,Visa Inc.,Financials,30,280.98,2025-02-14
+JNJ,Johnson & Johnson,Healthcare,35,170.07,2024-12-02
+XOM,Exxon Mobil Corp.,Energy,55,78.83,2025-04-07
+PG,Procter & Gamble Co.,Consumer Staples,40,196.34,2025-06-02

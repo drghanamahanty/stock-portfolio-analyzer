@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Course material and scratch work (not part of the app)
+*.docx
+git_practice/
+My first notebook.ipynb

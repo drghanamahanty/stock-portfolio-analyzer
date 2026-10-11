@@ -1,0 +1,23 @@
+[project]
+name = "w1-project"
+version = "0.1.0"
+description = "Stock Portfolio Analyzer - a Streamlit dashboard for portfolio performance and risk"
+readme = "README.md"
+authors = [
+    { name = "Ghana", email = "drghanamahanty@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "streamlit>=1.65.0",
+]
+
+[project.scripts]
+w1-project = "w1_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
